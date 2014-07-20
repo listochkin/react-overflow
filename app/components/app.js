@@ -16,6 +16,7 @@ var App = module.exports = React.createClass({
         <h1>App</h1>
         <ul>
           <li><Link to="index">Home</Link></li>
+          <li><Link to="users">Users</Link></li>
         </ul>
         {this.props.activeRoute}
       </div>
