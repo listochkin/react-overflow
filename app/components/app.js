@@ -6,6 +6,11 @@ var Link = require('react-nested-router').Link;
 var App = module.exports = React.createClass({
 
   render: function() {
+    // for React extension
+    if (window) {
+      window.React = React;
+    }
+
     return (
       <div className="container">
         <h1>App</h1>
